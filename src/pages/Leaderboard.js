@@ -12,22 +12,34 @@ const Leaderboard = () => {
   switch (category) {
     case 'Intermedio Mujeres':
       content = (
-        <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQOe1-D_UlByLk1jaRmJaI5jbzzsUJn2L7CoBc1ejDBTmXThHu8ksak7e22AhXQt8JTBd0qvfmnYCcT/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+        <iframe
+          title="Intermedio Mujeres"
+          src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQOe1-D_UlByLk1jaRmJaI5jbzzsUJn2L7CoBc1ejDBTmXThHu8ksak7e22AhXQt8JTBd0qvfmnYCcT/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"
+        ></iframe>
       );
       break;
     case 'Intermedio Hombres':
       content = (
-        <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQOe1-D_UlByLk1jaRmJaI5jbzzsUJn2L7CoBc1ejDBTmXThHu8ksak7e22AhXQt8JTBd0qvfmnYCcT/pubhtml?gid=1678873583&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+        <iframe
+          title="Intermedio Hombres"
+          src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQOe1-D_UlByLk1jaRmJaI5jbzzsUJn2L7CoBc1ejDBTmXThHu8ksak7e22AhXQt8JTBd0qvfmnYCcT/pubhtml?gid=1678873583&amp;single=true&amp;widget=true&amp;headers=false"
+        ></iframe>
       );
       break;
     case 'RX Mujeres':
       content = (
-        <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQOe1-D_UlByLk1jaRmJaI5jbzzsUJn2L7CoBc1ejDBTmXThHu8ksak7e22AhXQt8JTBd0qvfmnYCcT/pubhtml?gid=1621358835&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+        <iframe
+          title="RX Mujeres"
+          src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQOe1-D_UlByLk1jaRmJaI5jbzzsUJn2L7CoBc1ejDBTmXThHu8ksak7e22AhXQt8JTBd0qvfmnYCcT/pubhtml?gid=1621358835&amp;single=true&amp;widget=true&amp;headers=false"
+        ></iframe>
       );
       break;
     case 'RX Hombres':
       content = (
-        <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQOe1-D_UlByLk1jaRmJaI5jbzzsUJn2L7CoBc1ejDBTmXThHu8ksak7e22AhXQt8JTBd0qvfmnYCcT/pubhtml?gid=1777000486&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+        <iframe
+          title="RX Hombres"
+          src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQOe1-D_UlByLk1jaRmJaI5jbzzsUJn2L7CoBc1ejDBTmXThHu8ksak7e22AhXQt8JTBd0qvfmnYCcT/pubhtml?gid=1777000486&amp;single=true&amp;widget=true&amp;headers=false"
+        ></iframe>
       );
       break;
     default:
