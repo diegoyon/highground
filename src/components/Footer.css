@@ -1,15 +1,41 @@
 .footer {
   background-color: #e60073;
   display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2.5rem 0rem;
 }
 
 .social {
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .logo-footer {
-  width: 12rem;
+  height: 3rem;
+  margin-right: 0.7rem;
+}
+
+.facebook,
+.instagram {
+  height: 1.5rem;
+}
+
+.logo-info {
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.logo-info p {
+  line-height: 0.7rem;
+  font-size: 0.7rem;
+  border-left: 1px solid white;
+  padding-left: 0.7rem;
+}
+
+.logo-info p:first-child {
+  font-weight: 600;
 }
 
 .subfooter {
