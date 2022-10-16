@@ -2,3 +2,13 @@
   text-decoration: none;
 }
 
+.navbar {
+  display: flex;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.active {
+  text-decoration: underline !important;
+}
+
