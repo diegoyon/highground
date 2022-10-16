@@ -10,14 +10,26 @@ const Footer = () => {
       <section className="footer">
         <ul className="social">
           <li>
-            <img className="facebook" src={facebook} />
+            <a
+              href="https://www.facebook.com/highgroundfitnesscomp"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img alt="fb-icon" className="facebook" src={facebook} />
+            </a>
           </li>
           <li>
-            <img className="instagram" src={instagram} />
+            <a
+              href="https://www.instagram.com/highgroundfitnesscomp"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img alt="ig-icon" className="instagram" src={instagram} />
+            </a>
           </li>
         </ul>
         <div className="logo-info">
-          <img className="logo-footer" src={logo} />
+          <img alt="logo-icon" className="logo-footer" src={logo} />
           <div className="brand">
             <p>HIGH GROUND FITNESS COMPETITION 2022</p>
             <p>PRESENTED BY CROSSFIT XELA</p>
