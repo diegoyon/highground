@@ -3,13 +3,13 @@ select {
 }
 
 iframe {
-  width: 100%;
+  width: 125rem;
   height: 130rem;
   border: none;
   /* overflow: hidden; */
 }
 
 .table {
-  /* height: 100rem; */
+  /* width: 110vw; */
 }
 

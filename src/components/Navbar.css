@@ -1,5 +1,9 @@
-.navbar a {
+a {
   text-decoration: none;
+}
+
+a:visited {
+  color: black;
 }
 
 .navbar {
