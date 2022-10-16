@@ -1,12 +1,16 @@
 a {
+  color: white;
+  font-weight: 600;
   text-decoration: none;
 }
 
 a:visited {
-  color: black;
+  color: white;
 }
 
 .navbar {
+  position: absolute;
+  z-index: 1;
   display: flex;
   padding: 1rem;
   gap: 1rem;

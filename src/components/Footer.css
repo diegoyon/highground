@@ -1,0 +1,24 @@
+.footer {
+  background-color: #e60073;
+  display: flex;
+}
+
+.social {
+  display: flex;
+  gap: 2rem;
+}
+
+.logo-footer {
+  width: 12rem;
+}
+
+.subfooter {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  font-weight: 300;
+  font-size: 0.8rem;
+}
+
