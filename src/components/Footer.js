@@ -6,7 +6,7 @@ import instagram from '../images/instagram.png';
 
 const Footer = () => {
   return (
-    <>
+    <footer>
       <section className="footer">
         <ul className="social">
           <li>
@@ -39,7 +39,7 @@ const Footer = () => {
       <section className="subfooter">
         <p>2022 High Ground Fitness Competition.</p>
       </section>
-    </>
+    </footer>
   );
 };
 

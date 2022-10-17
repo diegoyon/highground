@@ -1,16 +1,22 @@
 import React, { useState } from 'react';
 import './Leaderboard.css';
+import Header from '../components/Header';
 
 const Leaderboard = () => {
-  const [category, setCategory] = useState('Intermedio Mujeres');
+  const [category, setCategory] = useState('Intermedio');
+  const [division, setDivision] = useState('Mujeres');
 
-  const handleChange = (event) => {
+  const handleChangeCategory = (event) => {
     setCategory(event.target.value);
   };
 
+  const handleChangeDivision = (event) => {
+    setDivision(event.target.value);
+  };
+
   let content;
-  switch (category) {
-    case 'Intermedio Mujeres':
+  switch (true) {
+    case category === 'Intermedio' && division === 'Mujeres':
       content = (
         <iframe
           title="Intermedio Mujeres"
@@ -18,7 +24,7 @@ const Leaderboard = () => {
         ></iframe>
       );
       break;
-    case 'Intermedio Hombres':
+    case category === 'Intermedio' && division === 'Hombres':
       content = (
         <iframe
           title="Intermedio Hombres"
@@ -26,7 +32,7 @@ const Leaderboard = () => {
         ></iframe>
       );
       break;
-    case 'RX Mujeres':
+    case category === 'RX' && division === 'Mujeres':
       content = (
         <iframe
           title="RX Mujeres"
@@ -34,7 +40,7 @@ const Leaderboard = () => {
         ></iframe>
       );
       break;
-    case 'RX Hombres':
+    case category === 'RX' && division === 'Hombres':
       content = (
         <iframe
           title="RX Hombres"
@@ -48,12 +54,17 @@ const Leaderboard = () => {
 
   return (
     <div className="leaderboard">
-      <select value={category} onChange={handleChange}>
-        <option value="Intermedio Mujeres">Intermedio Mujeres</option>
-        <option value="Intermedio Hombres">Intermedio Hombres</option>
-        <option value="RX Mujeres">RX Mujeres</option>
-        <option value="RX Hombres">RX Hombres</option>
-      </select>
+      <Header />
+      <div className="options">
+        <select value={category} onChange={handleChangeCategory}>
+          <option value="Intermedio">Intermedio</option>
+          <option value="RX">RX</option>
+        </select>
+        <select value={division} onChange={handleChangeDivision}>
+          <option value="Mujeres">Mujeres</option>
+          <option value="Hombres">Hombres</option>
+        </select>
+      </div>
       <div className="table">{content}</div>
     </div>
   );

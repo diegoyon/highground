@@ -14,9 +14,16 @@ a:visited {
   display: flex;
   padding: 1rem;
   gap: 1rem;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
 }
 
 .active {
-  text-decoration: underline !important;
+  color: #e60073 !important;
+}
+
+.nav-logo {
+  height: 2rem;
 }
 

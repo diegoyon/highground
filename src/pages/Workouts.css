@@ -1,0 +1,48 @@
+.workout-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;
+  gap: 2rem;
+}
+
+.select-workout {
+  padding: 0.3rem 2rem;
+  border: none;
+  background-color: #081f40;
+  color: white;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.workout-card {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  border: 2px solid #2da9e1;
+  width: 80%;
+  align-items: flex-start;
+  padding: 1rem;
+  max-width: 70rem;
+  min-width: 15rem;
+}
+
+.workout-card p {
+  white-space: pre-line;
+}
+
+.badge {
+  background-color: #2da9e1;
+  color: white;
+  font-weight: 500;
+  padding: 0.2rem 0.7rem;
+}
+
+.rx-card {
+  border-color: #081f40;
+}
+
+.rx-badge {
+  background-color: #081f40;
+}
+
