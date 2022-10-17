@@ -5,7 +5,6 @@ import Home from './pages/Home';
 import './App.css';
 import Workouts from './pages/Workouts';
 import Leaderboard from './pages/Leaderboard';
-import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -16,7 +15,6 @@ const App = () => {
         <Route path="/workouts" exact element={<Workouts />} />
         <Route path="/leaderboard" exact element={<Leaderboard />} />
       </Routes>
-      <Footer />
     </Router>
   );
 };

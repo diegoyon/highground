@@ -32,7 +32,7 @@ const Footer = () => {
           <img alt="logo-icon" className="logo-footer" src={logo} />
           <div className="brand">
             <p>HIGH GROUND FITNESS COMPETITION 2022</p>
-            <p>PRESENTED BY CROSSFIT XELA</p>
+            <p>POWERED BY CROSSFIT XELA</p>
           </div>
         </div>
       </section>

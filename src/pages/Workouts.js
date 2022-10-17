@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Header from '../components/Header';
 import './Workouts.css';
+import Footer from '../components/Footer';
 
 const Workouts = () => {
   const [workout, setWorkout] = useState('WORKOUT 1');
@@ -66,6 +67,7 @@ const Workouts = () => {
           <p>{rx_content}</p>
         </div>
       </div>
+      <Footer />
     </>
   );
 };

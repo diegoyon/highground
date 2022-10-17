@@ -15,3 +15,28 @@ iframe {
   padding-left: 1rem;
 }
 
+.header-content-leaderboard {
+  position: relative;
+  width: 125rem;
+}
+
+.header-content-leaderboard p {
+  color: white;
+  position: absolute;
+  top: 8.1rem;
+  left: 0.1rem;
+  font-size: 1.2rem;
+}
+
+.cover-leaderboard {
+  width: 125rem;
+  height: 10rem;
+  object-fit: cover;
+  filter: grayscale(100%) brightness(25%);
+  vertical-align: top;
+}
+
+.footer-leaderboard {
+  width: 125rem;
+}
+

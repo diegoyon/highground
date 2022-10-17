@@ -4,6 +4,7 @@ import './Home.css';
 import bi from '../images/sponsors/BI.png';
 import fitaid from '../images/sponsors/Fitaid.png';
 import facsa from '../images/sponsors/FACSA.jpg';
+import Footer from '../components/Footer';
 
 const Home = () => {
   return (
@@ -34,6 +35,7 @@ const Home = () => {
           <img className="sponsor-img" src={facsa} alt="facsa" />
         </div>
       </section>
+      <Footer />
     </>
   );
 };
