@@ -14,7 +14,7 @@
 
 .date {
   position: absolute;
-  top: 28%;
+  top: 16rem;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -86,7 +86,7 @@
 .sponsors h1,
 .about-us h1 {
   font-weight: 500;
-  background-color: #e60073;
+  background-color: #2da9e1;
   padding: 0.2rem 0.7rem;
   position: absolute;
   top: 0;
