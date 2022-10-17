@@ -19,11 +19,11 @@ const Home = () => {
       <section className="about-us">
         <h1>SOBRE LA COMPETENCIA</h1>
         <p>
-          "High Ground Fitness Competition" es un evento deportivo que se
-          realiza desde el año 2018 en la ciudad de Quetzaltenango, Guatemala.
-          Nuestro enfoque es unir a atletas de diferentes gimnasios a nivel
-          nacional e internacional, ponerlos a prueba y así reconocer al hombre
-          y mujer más fit de la región.
+          "High Ground Fitness Competition" es una competencia de CrossFit que
+          se realiza desde el año 2018 en la ciudad de Quetzaltenango,
+          Guatemala. Nuestro meta es reunir a atletas a nivel nacional e
+          internacional, ponerlos a prueba y así reconocer al hombre y mujer más
+          fit de la región.
         </p>
       </section>
       <section className="sponsors">

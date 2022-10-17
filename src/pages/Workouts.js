@@ -28,6 +28,10 @@ const Workouts = () => {
         'Sprints \n 3 Elimination Rounds\n\n 3 Shuttle Runs\n 8/5 Bar Muscle Ups\n3 Shuttle Runs\n';
       break;
     case 'WORKOUT 5':
+      int_content =
+        "For Time \n50ft OH DB Walking Lunges (35's/25's) \n 35 Box Jump Over (24\"/20\")\n 25 Handstand Push Ups\n 50ft DB Walking Lunges (35's/25's)\n 15 Devil Press (35's/25's)\n 50ft DB Walking Lunges (35's/25's)\n 25 Handstand Push Ups\n 35 Box Jump Over (24\"/20\")\n 50ft OH DB Walking Lunges (35's/25's)\n";
+      rx_content =
+        "For Time \n50ft OH DB Walking Lunges (50's/35's) \n 35 Box Jump Over (24\"/20\")\n 25 Handstand Push Ups\n 50ft DB Walking Lunges (50's/35's)\n 15 Devil Press (50's/35's)\n 50ft DB Walking Lunges (50's/35's)\n 25 Handstand Push Ups\n 35 Box Jump Over (24\"/20\")\n 50ft OH DB Walking Lunges (50's/35's)\n";
       break;
     case 'WORKOUT 6':
       break;
