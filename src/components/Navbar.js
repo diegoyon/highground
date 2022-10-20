@@ -8,18 +8,24 @@ const Navbar = () => {
 
   return (
     <ul className="navbar">
-      <NavLink to="/" end className={active}>
-        <img className="nav-logo" src={logo} alt="nav-logo" />
-      </NavLink>
-      <NavLink to="/workouts" className={active}>
-        Workouts
-      </NavLink>
-      <NavLink to="/leaderboard" className={active}>
-        Leaderboard
-      </NavLink>
+      <li>
+        <NavLink to="/" end className={active}>
+          <img className="nav-logo" src={logo} alt="nav-logo" />
+        </NavLink>
+      </li>
+      <li className="navbar-right">
+        <NavLink to="/" end className={active}>
+          Home
+        </NavLink>
+        <NavLink to="/workouts" className={active}>
+          Workouts
+        </NavLink>
+        <NavLink to="/leaderboard" className={active}>
+          Leaderboard
+        </NavLink>
+      </li>
     </ul>
   );
 };
 
 export default Navbar;
-

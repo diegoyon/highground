@@ -52,7 +52,6 @@
   color: white;
   border: 2px solid #e60073;
   padding: 0rem 0.7rem;
-  background-color: black;
   font-weight: 300;
 }
 
@@ -66,11 +65,13 @@
   text-align: center;
   padding: 3rem 3rem;
   padding-top: 5rem;
-  max-width: 80rem;
+  min-height: 20rem;
+  justify-content: center;
 }
 
 .about-us p {
   color: black;
+  max-width: 50rem;
 }
 
 .sponsors {
@@ -81,6 +82,8 @@
   background-color: rgb(223, 223, 223);
   padding: 2rem;
   position: relative;
+  min-height: 20rem;
+  justify-content: center;
 }
 
 .sponsors h1,
@@ -119,4 +122,3 @@
     transform: translateX(-100%);
   }
 }
-
