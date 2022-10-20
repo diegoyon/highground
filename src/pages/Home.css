@@ -108,6 +108,7 @@
   flex-wrap: wrap;
   overflow: hidden;
   /* animation: scroll 5s infinite linear; */
+  max-width: 80rem;
 }
 
 .sponsor-img {

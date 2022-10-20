@@ -35,6 +35,10 @@ const Workouts = () => {
         "For Time \n50ft OH DB Walking Lunges (50's/35's) \n 35 Box Jump Over (24\"/20\")\n 25 Handstand Push Ups\n 50ft DB Walking Lunges (50's/35's)\n 15 Devil Press (50's/35's)\n 50ft DB Walking Lunges (50's/35's)\n 25 Handstand Push Ups\n 35 Box Jump Over (24\"/20\")\n 50ft OH DB Walking Lunges (50's/35's)\n";
       break;
     case 'WORKOUT 6':
+      int_content =
+        'Snatch ladder \n\n(H) 95 - 105 - 115 - 125 - 135 - 145 - 155 - 165 -175 -185 \n (M) 65 - 75 - 85 - 95 - 100 - 105 - 110 - 115 - 120 - 125';
+      rx_content =
+        'Snatch ladder \n\n(H) 145 - 155 - 165 - 175 - 185 - 195 - 205 - 215 - 225 - 235 \n (M) 95 - 105 - 115 - 125 - 130 - 135 - 140 - 145 - 150 - 155';
       break;
     case 'WORKOUT 7':
       break;
@@ -73,4 +77,3 @@ const Workouts = () => {
 };
 
 export default Workouts;
-
