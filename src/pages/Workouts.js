@@ -15,6 +15,10 @@ const Workouts = () => {
 
   switch (workout) {
     case 'WORKOUT 1':
+      int_content =
+        'For time \n\n Buy in:\n 30 Burpee Box Get Overs\n\n 5 Rounds\n 7 Push Jerks (95/65)\n 100ft Sled Drag';
+      rx_content =
+        'For time \n\n Buy in:\n 30 Burpee Box Get Overs\n\n 5 Rounds\n 7 Push Jerks (135/95)\n 100ft Sled Drag';
       break;
     case 'WORKOUT 2 & 3':
       int_content =

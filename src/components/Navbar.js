@@ -20,6 +20,9 @@ const Navbar = () => {
         <NavLink to="/workouts" className={active}>
           Workouts
         </NavLink>
+        <NavLink to="/horarios" className={active}>
+          Horarios
+        </NavLink>
         <NavLink to="/leaderboard" className={active}>
           Leaderboard
         </NavLink>

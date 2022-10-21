@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import './App.css';
 import Workouts from './pages/Workouts';
 import Leaderboard from './pages/Leaderboard';
+import Horarios from './pages/Horarios';
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Routes>
         <Route path="/" exact element={<Home />} />
         <Route path="/workouts" exact element={<Workouts />} />
+        <Route path="/horarios" exact element={<Horarios />} />
         <Route path="/leaderboard" exact element={<Leaderboard />} />
       </Routes>
     </Router>
@@ -20,4 +22,3 @@ const App = () => {
 };
 
 export default App;
-
