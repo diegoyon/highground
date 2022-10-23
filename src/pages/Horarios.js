@@ -22,7 +22,7 @@ const Horarios = () => {
       content = (
         <iframe
           title="Intermedio Mujeres"
-          src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRvx90ianPinVujv3IWQtxLF8bWSIKfZ8BoQIn2u-e1YL5VVPGuJyquSCBNIZ3BQBWFhSbNVbN6Kwtt/pubhtml?gid=0&single=true"
+          src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQtzWn5bTudoZv8DWOyORXMQo5KTUQTUZrXmZlhaxZdVujx8Tn8_ZtCnzG7rQ9wj5DrXLlJhc8ezGdC/pubhtml?gid=1435634995&single=true"
         ></iframe>
       );
       break;
@@ -30,7 +30,7 @@ const Horarios = () => {
       content = (
         <iframe
           title="Intermedio Hombres"
-          src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRvx90ianPinVujv3IWQtxLF8bWSIKfZ8BoQIn2u-e1YL5VVPGuJyquSCBNIZ3BQBWFhSbNVbN6Kwtt/pubhtml?gid=1238941254&single=true"
+          src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQtzWn5bTudoZv8DWOyORXMQo5KTUQTUZrXmZlhaxZdVujx8Tn8_ZtCnzG7rQ9wj5DrXLlJhc8ezGdC/pubhtml?gid=1238941254&single=true"
         ></iframe>
       );
       break;
@@ -38,7 +38,7 @@ const Horarios = () => {
       content = (
         <iframe
           title="RX Mujeres"
-          src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRvx90ianPinVujv3IWQtxLF8bWSIKfZ8BoQIn2u-e1YL5VVPGuJyquSCBNIZ3BQBWFhSbNVbN6Kwtt/pubhtml?gid=2020663449&single=true"
+          src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQtzWn5bTudoZv8DWOyORXMQo5KTUQTUZrXmZlhaxZdVujx8Tn8_ZtCnzG7rQ9wj5DrXLlJhc8ezGdC/pubhtml?gid=2020663449&single=true"
         ></iframe>
       );
       break;
@@ -46,7 +46,7 @@ const Horarios = () => {
       content = (
         <iframe
           title="RX Hombres"
-          src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRvx90ianPinVujv3IWQtxLF8bWSIKfZ8BoQIn2u-e1YL5VVPGuJyquSCBNIZ3BQBWFhSbNVbN6Kwtt/pubhtml?gid=978886103&single=true"
+          src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQtzWn5bTudoZv8DWOyORXMQo5KTUQTUZrXmZlhaxZdVujx8Tn8_ZtCnzG7rQ9wj5DrXLlJhc8ezGdC/pubhtml?gid=978886103&single=true"
         ></iframe>
       );
       break;
