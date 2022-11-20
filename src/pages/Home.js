@@ -24,47 +24,49 @@ import Footer from '../components/Footer';
 const Home = () => {
   return (
     <>
-      <section className="header-content">
+      <header className="header-content">
         <img className="cover" src={cover} alt="cover-img" />
         <div className="date">
           <h2>OCTUBRE 22-23</h2>
           <h3>2022</h3>
           <h4>XELA</h4>
         </div>
-      </section>
-      <section className="about-us">
-        <h1>SOBRE LA COMPETENCIA</h1>
-        <p>
-          "High Ground Fitness Competition" es una competencia de CrossFit que
-          se realiza desde el año 2018 en la ciudad de Quetzaltenango,
-          Guatemala. Nuestro meta es reunir a atletas a nivel nacional e
-          internacional, ponerlos a prueba y así encontrar a las personas más
-          fit de la región.
-        </p>
-      </section>
-      <section className="sponsors">
-        <h1>PATROCINADORES</h1>
-        <div className="corrusel">
-          <img className="sponsor-img" src={bi} alt="bi" />
-          <img className="sponsor-img" src={facsa} alt="facsa" />
-          <img className="sponsor-img" src={Acetato} alt="acetato" />
-          <img className="sponsor-img" src={BestGrill} alt="BestGrill" />
-          <img className="sponsor-img" src={cantera} alt="cantera" />
-          <img className="sponsor-img" src={cfx} alt="cfx" />
-          <img className="sponsor-img" src={doer} alt="doer" />
-          <img className="sponsor-img" src={inumbia} alt="inumbia" />
-          <img className="sponsor-img" src={latam} alt="latam" />
-          <img className="sponsor-img" src={nutrisport} alt="nutrisport" />
-          <img className="sponsor-img" src={ProPhysio} alt="ProPhysio" />
-          <img className="sponsor-img" src={sportaddict} alt="sportaddict" />
-          <img className="sponsor-img" src={xelapan} alt="xelapan" />
-          <img className="sponsor-img" src={fitaid} alt="fitaid" />
-          <img className="sponsor-img" src={mediahouse} alt="mediahouse" />
-          <img className="sponsor-img" src={macizo} alt="macizo" />
-          <img className="sponsor-img" src={powerade} alt="powerade" />
-          <img className="sponsor-img" src={taberna} alt="taberna" />
-        </div>
-      </section>
+      </header>
+      <main>
+        <section className="about-us">
+          <h1>SOBRE LA COMPETENCIA</h1>
+          <p>
+            "High Ground Fitness Competition" es una competencia de CrossFit que
+            se realiza desde el año 2018 en la ciudad de Quetzaltenango,
+            Guatemala. Nuestro meta es reunir a atletas a nivel nacional e
+            internacional, ponerlos a prueba y así encontrar a las personas más
+            fit de la región.
+          </p>
+        </section>
+        <section className="sponsors">
+          <h1>PATROCINADORES</h1>
+          <div className="corrusel">
+            <img className="sponsor-img" src={bi} alt="bi" />
+            <img className="sponsor-img" src={facsa} alt="facsa" />
+            <img className="sponsor-img" src={Acetato} alt="acetato" />
+            <img className="sponsor-img" src={BestGrill} alt="BestGrill" />
+            <img className="sponsor-img" src={cantera} alt="cantera" />
+            <img className="sponsor-img" src={cfx} alt="cfx" />
+            <img className="sponsor-img" src={doer} alt="doer" />
+            <img className="sponsor-img" src={inumbia} alt="inumbia" />
+            <img className="sponsor-img" src={latam} alt="latam" />
+            <img className="sponsor-img" src={nutrisport} alt="nutrisport" />
+            <img className="sponsor-img" src={ProPhysio} alt="ProPhysio" />
+            <img className="sponsor-img" src={sportaddict} alt="sportaddict" />
+            <img className="sponsor-img" src={xelapan} alt="xelapan" />
+            <img className="sponsor-img" src={fitaid} alt="fitaid" />
+            <img className="sponsor-img" src={mediahouse} alt="mediahouse" />
+            <img className="sponsor-img" src={macizo} alt="macizo" />
+            <img className="sponsor-img" src={powerade} alt="powerade" />
+            <img className="sponsor-img" src={taberna} alt="taberna" />
+          </div>
+        </section>
+      </main>
       <Footer />
     </>
   );
