@@ -46,9 +46,9 @@ const Workouts = () => {
       break;
     case 'WORKOUT 7':
       int_content =
-        'For Time \n\n 21 Chest-to-bar Pull Ups \n 21 Back Squats (155/105) \n 15 Chest-to-bar Pull Ups \n 15 Front Squats (155/105) \n 9 Chest-to-bar Pull Ups \n 9 Overhead Squats (155/105)\n\n TC: 8min';
-      rx_content =
         'For Time \n\n 21 Pull Ups \n 21 Back Squats (115/85) \n 15 Pull Ups \n 15 Front Squats (115/85) \n 9 Pull Ups \n 9 Overhead Squats (115/85)\n\n TC: 8min';
+      rx_content =
+        'For Time \n\n 21 Chest-to-bar Pull Ups \n 21 Back Squats (155/105) \n 15 Chest-to-bar Pull Ups \n 15 Front Squats (155/105) \n 9 Chest-to-bar Pull Ups \n 9 Overhead Squats (155/105)\n\n TC: 8min';
       break;
     default:
       break;
