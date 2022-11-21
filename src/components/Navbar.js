@@ -39,11 +39,6 @@ const Navbar = () => {
 
       <div className="mobile">
         <div>
-          <NavLink to="/" end className={active}>
-            <img className="nav-logo" src={logo} alt="nav-logo" />
-          </NavLink>
-        </div>
-        <div>
           <div className="navbar-mobile">
             <Link to="#" className="menu-bars">
               <FaIcons.FaBars onClick={showSidebar} />
@@ -68,6 +63,11 @@ const Navbar = () => {
               })}
             </ul>
           </nav>
+        </div>
+        <div>
+          <NavLink to="/" end className={active}>
+            <img className="nav-logo" src={logo} alt="nav-logo" />
+          </NavLink>
         </div>
       </div>
     </>
